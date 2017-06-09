@@ -29,6 +29,8 @@ public class HiLo
 		
 		System.out.println("\n\tYou have " + points + " points.");
 		
+		System.out.println("\n\tYou have " + game(points) + " points.");
+		
 	}
 
 	public static int game(int points) {
@@ -37,10 +39,10 @@ public class HiLo
 		
 		Scanner input = new Scanner(System.in);
 		
-		System.out.println("\n\tEnter points to risk: ");
+		System.out.print("\n\tEnter points to risk: ");
 		guess = input.nextInt();
 		
-		
+		return (points);
 		
 	}
 
